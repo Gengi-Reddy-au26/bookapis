@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveling</title>
+    
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+
+<body>
+    <section>
+        <div class="header">
+            <a href="#"><img src="C:\Users\Gangareddy N\OneDrive\Desktop\eveit2\How-to-make-a-Responsive-Travel-Website-using-Html-CSS-Javascript\travellogo.png"width="50" height="50">Travel</a>
+            <style>
+                 a {
+                    position: relative;
+                    display: inline-block;
+                    font-size: 3em;
+                    font-weight: 900;
+                    color: royalblue;
+                    overflow: visible;
+                  }
+                  
+            </style>
+            <div class="row">
+                <a href="#">
+                    Home
+                </a>
+                <a href="#">
+                    About
+                </a>
+            </div>
+        </div>
+        <div class="text">
+            <h2>Enjoy <br>&nbsp; Trip</h2>
+        </div>
+        <a href="#" class="play-video" onclick="document.getElementById('video').style.display = 'flex' ">
+            <img src="./play.png" alt="clink me">TRAVEL LOGO
+           
+        </a>
+        <div class="buttons">
+            <button>GET STARTED</button>
+            <button>GET HAPPY</button>
+          </div>
+
+
+        <div class="wrapper">
+            <div class="button">
+               <div class="icon">
+                  <i class="fab fa-facebook-f"></i>
+               </div>
+               <span>Facebook</span>
+            </div>
+            <div class="button">
+               <div class="icon">
+                  <i class="fab fa-twitter"></i>
+               </div>
+               <span>Twitter</span>
+            </div>
+            <div class="button">
+               <div class="icon">
+                  <i class="fab fa-instagram"></i>
+               </div>
+               <span>Instagram</span>
+            </div>
+            <div class="button">
+               <div class="icon">
+                  <i class="fab fa-github"></i>
+               </div>
+               <span>Github</span>
+            </div>
+            <div class="button">
+               <div class="icon">
+                  <i class="fab fa-youtube"></i>
+               </div>
+               <span>YouTube</span>
+            </div>
+         </div>
+
+        <div class="video-area" id="video">
+            <video src="./video.mp4" controls></video>
+            <span class="clear" onclick="document.getElementById('video').style.display = 'none' ">&times;</span>
+        </div>
+
+    </section>
+</body>
+
+</html>

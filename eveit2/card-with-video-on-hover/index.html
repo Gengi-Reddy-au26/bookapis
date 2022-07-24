@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Box Icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <title> UI Card</title>
+  </head>
+  <body>
+
+    <div class="wrapper">
+      <div class="card front-face">
+         <img src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
+      </div>
+      <div class="card back-face">
+         <img src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
+         <div class="info">
+            <div class="title">
+               CodingLab
+            </div>
+            <p>
+               User interface designer and <br>front-end developer
+            </p>
+         </div>
+         <ul>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+         </ul>
+      </div>
+   </div>
+    <!-- Dark Mode Switch -->
+    <i id="color-mode-switch" class="bx bx-moon"></i>
+
+    <div class="container">
+      <div class="card">
+        <div class="card__header">
+          <video class="card__header__video" muted>
+            <source
+              src="C:\Users\Gangareddy N\OneDrive\Desktop\eveit2\How-to-make-a-Responsive-Travel-Website-using-Html-CSS-Javascript\video.mp4"
+              type="video/mp4"
+            />
+          </video>
+          <img class="card__header__agent" src="./assets/avatar.jpg" />
+        </div>
+
+        <div class="card__body">
+          <div class="text_muted">SMART TOWNHOUSE &bull; 2 YEAR OLD</div>
+          <div class="card__price">1,056,000</div>
+          <div class="card__address">
+            <i class="bx bx-map"></i>
+            <p>BANGALORE KARNATAKA</p>
+          </div>
+        </div>
+        <div class="hr"></div>
+        <div class="card__footer">
+          <div class="card__footer__box">
+            <i class="bx bx-bed"></i>
+            3
+          </div>
+          <div class="card__footer__box">
+            <i class="bx bx-bath"></i>
+            2
+          </div>
+          <div class="card__footer__box">
+            <i class="bx bx-swim"></i>
+            1
+          </div>
+          <div class="card__footer__box">
+            <i class="bx bx-dumbbell"></i>
+            1
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="./main.js"></script>
+  </body>
+</html>

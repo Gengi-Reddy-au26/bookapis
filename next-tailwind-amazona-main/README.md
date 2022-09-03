@@ -11,15 +11,7 @@
 - PayPal developer api to make online payment
 - Deploy web applications on servers like Vercel and Netlify
 
-## Full Course
 
-Learn building this ecommerce website on Udemy with 90% discount:
-https://www.udemy.com/course/nextjs-ecommerce
-
-## Run it Locally
-
-```
-$ git clone https://github.com/basir/next-tailwind-amazona
 $ cd next-tailwind-amazona
 $ npm install
 $ npm run dev
